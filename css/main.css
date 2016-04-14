@@ -1,0 +1,291 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    position: relative;
+}
+
+/*navigation*/
+header .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #1e1e1e;
+    padding: 0;
+    position: relative;
+    top: 23px;
+    z-index: 100;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+header .navbar-brand span {
+    color: #f7b3d2;
+}
+
+
+header .navbar {
+    background-color: rgba(233,233,233, 0.7);
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+    border-bottom: 5px solid rgba(233,233,233, 0.5);
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+#navbar {
+    position: relative;
+}
+
+#navbar .navbar-nav {
+    position: relative;
+    left: 65%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+#navbar > ul > li > a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#navbar a:hover,
+#navbar a:focus,
+#navbar ul li.active a {
+    background: none !important;
+    color: #e18aaf !important;
+}
+
+#navbar a:focus {
+    color: #000 !important;
+}
+
+/*dropdown*/
+header .dropdown-menu {
+    background-color: rgba(255,255,255, 0.8);
+    border-top: 5px solid #e18aaf;
+    padding: 0;
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+header #navbar .dropdown-menu li a {
+    font-size: 12px;
+    display: block;
+    padding: 10px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+header #navbar .dropdown-menu li a:hover {
+    background-color: #fff !important;
+    padding-left: 13px;
+}
+
+
+/*title*/
+header .title {
+    font-family: 'Dancing Script', cursive;
+    color: #f9f2f4;
+    opacity: 0.5;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+header .title h1 {
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+header .title .date {
+    font-size: 30px;
+}
+
+header .smaller {
+    background: #fff !important;
+}
+
+header .smaller #navbar > ul > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header .smaller .navbar-brand {
+    top: 12px;
+}
+
+.carousel-control.left {
+    background-color: transparent!important;
+    background-image: none!important;
+}
+.carousel-control.right {
+    background-color: transparent!important;
+    background-image: none!important;
+}
+
+.carousel .item {
+    height: 100vh;
+}
+
+#count-down #clock {
+    padding-top: 40px;
+    font-size: 70px;
+    color: #EE62A2;
+}
+
+#count-down .count-down-title {
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+#couple {
+    padding: 50px 0 100px 0;
+    background-color: #FBF5ED;
+}
+
+#couple .couple-title {
+   font-family: 'Dancing Script', cursive;
+   font-size: 45px;
+   margin-bottom: 25px;
+}
+
+#couple .couple-content {
+    padding: 0 10%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+#couple .namecard-wrap {
+    padding-top: 107px;
+}
+
+#couple .namecard-wrap .namecard-item {
+    background-color: #fff;
+    width: 100%;
+}
+
+#couple .namecard-item .namecard-image {
+    position: absolute;
+    top: 0;
+    left: 23%;
+}
+#couple .namecard-item .namecard-image img{
+    width: 215px;
+    height: 215px;
+    object-fit: cover;
+}
+
+#couple .namecard-item .namecard-body {
+    padding-top: 110px;
+}
+
+#couple .namecard-item .namecard-body .namecard-body-color {
+    font-family: "Cantata One", serif;
+}
+
+#couple .namecard-item .namecard-body .namecard-body-notes {
+    font-family: "Cantata One", serif;
+    font-size: 13px;
+}
+
+#couple .namecard-item .namecard-paragraph {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 40px 0 20px 0;
+}
+
+#couple .namecard-item .namecard-sign {
+    padding-bottom: 50px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+#gallery {
+    background-color: #fef0ee;
+}
+
+#gallery .section-heading, #ourlove .section-heading {
+    padding: 80px 0 30px 0;
+}
+
+#gallery .section-heading, #ourlove .section-heading h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    line-height: 38px;
+    color: #2a1d22;
+    margin: 0;
+    padding-bottom: 55px;
+}
+
+#gallery .section-heading, #ourlove .section-heading p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin: 0 0 60px;
+}
+
+#ourlove {
+    padding: 0 70px 70px 70px;
+    background-color: #f7f7f7;
+}
+
+#ourlove .content .images {
+    height: 369px;
+    width: 100%;
+}
+
+#ourlove .content .portfolio-caption {
+    color: #EE62A2;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.photoLists, .free-wall {
+    padding: 15px;
+    background-color: #F0EFEF;
+}
+
+footer .first {
+    background-color: rgba(225, 138, 175, 0.18);
+    text-align: center;
+    padding: 90px 0;
+}
+
+footer .first h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    line-height: 56px;
+    color: #e18aaf;
+    margin: 0 0 15px;
+}
+
+footer .first span {
+    font-size: 35px;
+}
+
+footer .last {
+    background-color: #e18aaf;
+    color: #fff;
+    padding: 50px 0;
+}
