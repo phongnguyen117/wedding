@@ -261,6 +261,26 @@ header .smaller .navbar-brand {
     padding: 25px;
 }
 
+.photoLists {
+    position: relative;
+}
+
+.photoLists .bullets-list {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+}
+
+.photoLists .bullets-list li {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
 .photoLists, .free-wall {
     padding: 15px;
     background-color: #F0EFEF;
