@@ -209,6 +209,11 @@ header .smaller .navbar-brand {
     padding: 40px 0 20px 0;
 }
 
+#couple .namecard-item .namecard-paragraph p {
+    padding: 0 30px;
+    text-align: justify;
+}
+
 #couple .namecard-item .namecard-sign {
     padding-bottom: 50px;
 }
@@ -259,6 +264,10 @@ header .smaller .navbar-brand {
     background-color: white;
     text-align: center;
     padding: 25px;
+}
+
+#ourlove .content .portfolio-caption p {
+    text-align: justify;
 }
 
 .photoLists {
