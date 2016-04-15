@@ -128,7 +128,7 @@ $( document ).ready(function() {
     }
     var dom = '<div class="google-image-layout" data-google-image-layout data-max-height="300">' +
                 html +
-              '</div>'
+              '</div>';
     $("#freewall").html(dom);
 
     var imgLoad = imagesLoaded( document.querySelector('#freewall') );
@@ -153,9 +153,9 @@ $( document ).ready(function() {
   //   });
   // });
 
-
-  var listNumberShowIndex = [[0, 11], [12, 23], [24, 36], [37, 47], [48, 61], [62, 74], [75, 86], [87, 100]];
-  showAlbums(87, 100);
+// var listNumberShowIndex = [[0, 11], [12, 22], [23, 36], [37, 46], [47, 60], [61, 73], [74, 85], [86, 99]];
+  var listNumberShowIndex = [[0, 10], [10, 18], [18, 28], [28, 38], [38, 46], [46, 57], [57, 67], [67, 77], [77, 87], [87, 97]];
+  showAlbums(0, 10);
 
   listNumberShowIndex.forEach(function(element, index, array) {
     if (!index) {
