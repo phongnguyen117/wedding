@@ -120,27 +120,48 @@ $( document ).ready(function() {
     "https://lh3.googleusercontent.com/lT_gtbT741MTpLnfxmbmLFb0lFLNJgNShUC6b2NDdfbNzxfaj3dpMj7FxOn5jweOXMZB6S6qVJlrB5kzcyrYnmfFCBZUKl27aCZJhRIuhzAJVH4uEmzKLnHzrWvZfVG6OdORBVqgxT3qpo_b3HJ3nhDE1nK1-mtLpck6t-u4T92GnXXCNn_-Jlu7ZfyDkOwOEzp8XOlbxdZdC82AIxY04nQur17bnG05LpzfuOq180EFUusvCqeOub1iOUE8ZtnbXHvz88NQzlwnfLWorUlHV4CwZCLs93xdGrs48sf2aClGdMx0knzl4SmybMrVbW7Zrs-dNfhR1PL0LXmR36DLFifEaAhTBSVElQSIAR9FbqADxM6_5miykC4xOS2AmoOV3ZBVxNkf4d9kLxfZ7elXMs5Blrju671zmKIcnmSPuPz7nJvYX-WGCfQKVDgQqcJFT_WslgX_S9cjyXlfCoKKZxqCg5caXDg1dno97IMtR6nlCAYTZ6pAPUfiWPstqVrbvW2tB4pCqiuR_rs5UgAP1JF2YUv_hDSwXF5MgMafB_iBAsMslbL183iGmwysLKmmmVNn"
   ];
 
-  var randomImages = listImages.sort();
-  var temp = "<img src='{linknecon}'>";
-  var html = '';
-  for (var i = 15; i < 25; i++) {
-    html += temp.replace("{linknecon}", randomImages[i]);
+  function showAlbums(start, end) {
+    var randomImages = listImages.sort();
+    var temp = "<img src='{linknecon}'>";
+    var html = '';
+    for (var i = start; i < end; i++) {
+      html += temp.replace("{linknecon}", randomImages[i]);
+    }
+    var dom = '<div class="google-image-layout" data-google-image-layout data-max-height="300">' +
+                html +
+              '</div>'
+    $("#freewall").html(dom);
+
+    var imgLoad = imagesLoaded( document.querySelector('#freewall') );
+
+    imgLoad.on( 'progress', function( instance, image ) {
+      image.img.setAttribute('data-width', image.img.offsetWidth);
+      image.img.setAttribute('data-height', image.img.offsetHeight);
+    });
+
+    imgLoad.on( 'done', function( instance ) {
+      GoogleImageLayout.init();
+    });
   }
-  var dom = '<div class="google-image-layout" data-google-image-layout data-max-height="300">' +
-              html +
-            '</div>'
-  $("#freewall").html(dom);
+  var listNumberShowIndex = [[0, 11], [12, 22], [23, 36], [37, 46], [47, 60], [61, 73], [74, 85], [86, 99]];
+  showAlbums(0, 11);
 
-  var imgLoad = imagesLoaded( document.querySelector('#freewall') );
-
-  imgLoad.on( 'progress', function( instance, image ) {
-    image.img.setAttribute('data-width', image.img.offsetWidth);
-    image.img.setAttribute('data-height', image.img.offsetHeight);
+  listNumberShowIndex.forEach(function(element, index, array) {
+    if (!index) {
+      $('.bullets-list').append('<li class="active" id="bullet'+ index + '"></li>');
+    } else {
+      $('.bullets-list').append('<li id="bullet'+ index +'"></li>');
+    }
   });
 
-
-  imgLoad.on( 'done', function( instance ) {
-    GoogleImageLayout.init();
+  var listBullets = $('.bullets-list li');
+  listBullets.each(function(i) {
+    var self = $(this);
+    $(this).on('click', function() {
+      listBullets.removeClass('active');
+      showAlbums(listNumberShowIndex[i][0], listNumberShowIndex[i][1]);
+      self.addClass('active');
+    })
   });
 
 });
