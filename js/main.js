@@ -121,7 +121,7 @@ $( document ).ready(function() {
 
   function showAlbums(start, end) {
     var randomImages = listImages.sort();
-    var temp = "<div class='image_albums'><img src='{linknecon}'/></div>";
+    var temp = "<div class='image_albums'><img class ='image_album' src='{linknecon}'/></div>";
     var html = '';
     for (var i = start; i < end; i++) {
       html += temp.replace("{linknecon}", randomImages[i]);
