@@ -53,7 +53,6 @@ $( document ).ready(function() {
     "https://lh3.googleusercontent.com/DRxi-_kyS-qfffTUgFrkNNwkj-6LUaqin_HPKV_EZuaHXms_To_KbZmZwHi-C-u2muYNJxnHN1TTPjIhCG9mDbkE8ozjTwKGRxdpgJvq1P_EOwXswDXEFiHrJH6nYRbE9e2j3gDEyt4Cga7a5X1t0n6yXM5gobcm-pqf6Fahm7zeNqOLubAqryWNJbJ1OepWZHADGagVEl5aIlQohgIpYNkjsnOe8uw1VQHVZGatyzxDEwzokLyDVzFvETU4vIRiQZxlOqLtKycfBImhRiTQs-AaNVZCFiwDYBTHZD7FiJmU3M7EH0ugglmyVAlQvpYu6MojNvnYomKt1BYUn7aPk4plFpXLlszdWNFo55PtV3h14LieWil6DzTORKaEtkz8PBTN9yJmAOw4puawSjHMCfjR3NvCqd3gtFDAbLGzXcn7vdqZ4PcKaOydTjtDbDPkbemIobUwq40fyYWousMoYkdwl2Od8GvS0KutsXci7m7gkbK0dN8Zz3FGRT1QYDgIds2ws9JldEP1HN0vjwCLduYqGEhOF5jGVchHKtPlwyCiiyHT2XOAoZkzCmzaEYK7EP1g",
     "https://lh3.googleusercontent.com/jiidK9kPmQwKt1bQrTx0RFfrnxm6hDrEI-KueDBAyErTIPUEE1G1Zc3dIniHYSKY4jlZiOH5O7jHFzYYqowXkv9iO30fQzjA5Wds0OlLpDHOho2AJJaIGetui0ZN2yydPNe3a50XzFMDBqjhm96FZnxyfR0OtM6r34W0xCAEASy0pV1ghNQffnvSiVYH-5vGjbsDbwuC-B_gGvgCU4BhpIILvJ_qGVtHVYrTdoSPGNBd91E1_sezJ7q9Z3S9SZBX9EVYWJxIHwDz4GPAUlUIRgMDfN5sy2f10zNkZf7lJc9cvqlm8HSqWfwSYWu8qN8Y3gkK-WdFSQLWNKQKcZnf9coOV6520xecpGTNvvuOq8zUYlcqc9QBjzb5Mvjmk2F-Zo1NfwINFhw4T9XblQTIJHe_Ax5LlixlTfi8syxqgtOf8mrI1haFtmDmkPG33Tpm9UuhDnCt3dLU0W1dx_cKkVPci_cybxTOr5LODfm-Zc6mKBqqGgOiCNJbRBPmEeeZm-vq0H7iUfwLybrTi7WmiJGG-eAFM_3SbWdBe2gxKarWSnMQPl8_-02SFu6YYdsPo1dX",
     "https://lh3.googleusercontent.com/O9udVOLsx-wsTsmErN6QMixgGnUme1-Rwd8X3CcxYgl61RD2ndG6CD1owpFEPBCUDegIzDXDKGpAmRQUnJnfFtiVGipXaLEDkPzhJ00b1XWWigy1VnZrtcZQtoSGAOnq-9EFSzfdG3ur2MIA9lnrO8CdXEXbUcSBXVuExIkpK6ILK07_TSGb8u86NxvsAI1O0H0tZTL2zOjwHTt13sHT6bB1BDA-C3gFuWnuPYPCOfIHhVePaYZPih_EeDwtzNMxSn2tNU_PokXJqVpDrpUDdZwLVEQ1JS4oATikdl3fv_6UAIf_jHTZg0MPdZEipL01Vlp-HqBKRJDWiVnEk06Hv_T5Ca113nxXcbQdc0xsmQ2EKAN0pXjw3tUNo3Fi1w52jbN6bDf_-y4F5TxHZ9q1VfsrD57yY8reUBlA4KZnqRpMrUqbTTK2AKC_0CAdffEnZW6K37qCFR98ntHKHmcfluECgLRB8IgFDLeqRTOZjZloZqDtdeK2irxU2AOuhMv9HrKUK1wIoGZ-LwvTVR6-eqi_QsUWCF3XXkyR3MVqiRwXcGrmUhMN78_3gFIKrKTiBrrF",
-    "https://lh3.googleusercontent.com/BAmZKO0p1BrgvuGfDoDTOptDYTeprA7Oh0j0MQoI_wec3gds0VXIN0a4ZfGbSYvJ3yCqkWdFCN4tdG4Gv8Qqn_U_Ums0BKVfsF5ki3ah4yvonuJQl5IR7HNODkhiK4aN10NCDmjAYNDKeDB0yOohgjtbxl7Szk4VetnjBS2FZPPm8auwiO3IYEOLT4R-ImnfdKwk-UeOmrw4R6eZyOvqdplsobJ-IXN7oL-rEV36Ow-Sj08mtqtBtHiEzqy-7Y43k_VguJDfrhYzwY_ZXF6eaktHRm3Nqx9PCpX1HTkNDxZi2QR0lZTiM8QksfIGny0eXgxD-dihS-slJYYTm6u47vCpNvyMVq2tkEM-1zmq-_E_9h6mGFXeeGAfLwW0PLL3w7iNunuJpAHpe2tUlg0YybjrOH5iGZGl8m0KfRXJq5h79-pv7qJUq7zLqW1wELu6ceXtL8fiSfcbcbRzinbjFR6-lH6919ZceHLlrTEqi-E5Eky6sKyV2pj69Hus2Xp86Gy6q4JhwtbgTQr3avrqTpx2Fh1l6Xa9UALJweHU-IMveRul6zzCmF5RsPfgrRxlm-kw",
     "https://lh3.googleusercontent.com/VKphH-kukq9coeme7peSVj634f9sz5YHxM3MTvYggB8mxqbr_rvn8Etg4tQYCufC70kaOs_N1_19k56S3z4mBlkLKozJEqfQ7jSQs4d_zhbToinANnt3HLUEIE4rQaQdncPXMPqB1N_S06trcnPG5BYfqNm3sWMGdNuvI9CLoJuGk8x-kois016EWGfCDuMs2A-1LqGdOmGNaO0__hjxk10dF6XX6VEWi5YSS3VdgVGa51vg2w9qMLGH4f-eg5jb9PU6_nFcq0NLY-xkv3DfUBRG2lOve0pmrCERi4FWm3ND3V74U4PXH-uJyIXjzcsOvii2E_kqmt7EAKJF06cz_C3D981Y_w1_I55N0PLpGcLt90DFrOJopoKjqcBfEQfO0paQzcPlXN-hNZStKyO5UIwGQquRf8XWWlsOeglnvex8MW1U6bPU5mrUlL8EvT67R5UeTo4jw61TNh4AF_aaOmZDdL9kVg0o4OxJDb9OqI4u_SQePopwX81sBWLrJz4U6kjObsG2iuv-XkypykcZJj1wtzHh24HX6h1qrbi-qIsfnUBlxuxbm6l4Kf9fbCagS0s8",
     "https://lh3.googleusercontent.com/MLQPR2mBDjvzloSN6L6jazxcNt9yEaFbbn0OjkcevZGujHDjM6CskHxtIvwKKmsNaIzHQAQf0q0C3EUBveaitLKdwMgTd3CpeV9FhcfQ_0GzRFH0h4rviHjvO5yYdH-s26hHDJl4aCORgGyocbBjR1dZSL4tpEWPCh8swiCZ6TAmzaQtDECicreSVvnW1Pd5bR9ir3kV9rlB4pdCFsMMWZGao8zAu7EWSEEIHRWSPZ5CjuybzU5I5ujErHY_TVVIzArLkAioh5pT0wLZ7D46Za44jDk53sWCUht3MxAeSloJ9c09DUhb5svSuZ2TvXmL5S8XQ0lYN5OIJAn8S-Rwqqh1mLknByfxW5WUHknKOMkZiE8Un4G9WHg3sp__EwEU0EfcA0P8KRR9kifaHlQQMysJsovrtZl5HTIY2uNXJ8UumaxqcBhvFpEKlFkUX0ZHbFpjEQSXN73zTUb43ppzgFUEqxyO9vEc5pABQDaCD3PFVdQArLEBOJDe9JCBZM0_mnuExZ5gHR6-Vr9o-SAyugrNy4uPBT1ZcC7-SnmBI-IEPHhu7J6t7JH_VZ-CobCmEiEU",
     "https://lh3.googleusercontent.com/yUpgZy6GTsZzMr9gQh_Ooyi1UnbmVnYmTd_ae5Hgc5OZULmTbI7O5xBpDDfCnEYkZh450fLxUrQ3-XFg-PaKBR6U6E08ZFCPQSzG1vt8rt68omgNfjCDylEOJcyFretgSe5CrnfCltSbnmFLrova1ypp4JaPQUMZODCZFPMEP-SvIJyvmKgJpyjC3syCBU6rg0BNqJRU-PXnODDXq30PhbYtTXB4vtRqDJTfnw0iwQzPF_RQdGpIK6ixpkvla4Yq9eEaUEpQe87SbNluyy-viPw4I7ul16cEmOT82nijIFYYE6I1oaPMdqL_efcx96UdJq86BrTcHL_jFhYT_5MtLPopsraK7dAlgCt580GE9pi6RYmWk-nQ5f5iUMauI-kAj4gvw2G1XF3HzCDNRco_XsvzN4zRLR-UEVyyI-CkmOHilbyVi08dRb9BgPO4mfss_h4wf2dE0dQukUMyCmnp1fmzO8bs9RM1shfoRdoTuujgVZk-WscWEF99-y5AA81aIhXIVDSnL2HTR87pdV75COz4mwJmeCovpQQTI_GDxbQ0n8daIGPrK2aOjVOs_SQ17UqA",
@@ -122,7 +121,7 @@ $( document ).ready(function() {
 
   function showAlbums(start, end) {
     var randomImages = listImages.sort();
-    var temp = "<img src='{linknecon}'>";
+    var temp = "<div class='image_albums'><img src='{linknecon}'/></div>";
     var html = '';
     for (var i = start; i < end; i++) {
       html += temp.replace("{linknecon}", randomImages[i]);
@@ -143,8 +142,20 @@ $( document ).ready(function() {
       GoogleImageLayout.init();
     });
   }
-  var listNumberShowIndex = [[0, 11], [12, 22], [23, 36], [37, 46], [47, 60], [61, 73], [74, 85], [86, 99]];
-  showAlbums(0, 11);
+
+  // $(window).scroll( function(){
+  //   $('.hideme').each( function(i){
+  //     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+  //     var bottom_of_window = $(window).scrollTop() + $(window).height();
+  //     if( bottom_of_window > bottom_of_object - 500){
+  //       $(this).animate({'opacity':'1'},500);
+  //     }
+  //   });
+  // });
+
+
+  var listNumberShowIndex = [[0, 11], [12, 23], [24, 36], [37, 47], [48, 61], [62, 74], [75, 86], [87, 100]];
+  showAlbums(87, 100);
 
   listNumberShowIndex.forEach(function(element, index, array) {
     if (!index) {
@@ -227,8 +238,8 @@ $( document ).ready(function() {
       img = images[i];
       img.style.width = height * parseInt(img.getAttribute('data-width')) / parseInt(img.getAttribute('data-height')) + 'px';
       img.style.height = height + 'px';
-      img.style.marginRight = margin  + 'px'; // -4 is the negative margin of the inline element
-      img.style.marginBottom = margin + 'px';
+      // img.style.marginRight = margin  + 'px'; // -4 is the negative margin of the inline element
+      // img.style.marginBottom = margin + 'px';
       img.classList.add('layout-completed');
     }
 
