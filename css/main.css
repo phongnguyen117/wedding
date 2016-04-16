@@ -271,6 +271,7 @@ header .smaller .navbar-brand {
 }
 
 .photoLists {
+    min-height: 570px;
     position: relative;
 }
 

@@ -127,9 +127,10 @@ $( document ).ready(function() {
       html += temp.replace("{linknecon}", randomImages[i]);
     }
     var dom = '<div class="google-image-layout" data-google-image-layout data-max-height="300">' +
-                html +
+                // html +
               '</div>';
-    $("#freewall").html(dom);
+    var c = $(dom).append(html).fadeIn('slow');
+    $("#freewall").html(c, 1000);
 
     var imgLoad = imagesLoaded( document.querySelector('#freewall') );
 
