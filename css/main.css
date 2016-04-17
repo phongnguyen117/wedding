@@ -435,3 +435,27 @@ footer .last {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+.verse {
+    height: calc(100vh - 40px);
+    min-height: 460px;
+    max-width: calc(100vw - 40px);
+    background: #DDD;
+    margin: 20px;
+    padding: 100px 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#scroll-bar {
+    height: 100%;
+    position: relative;
+}

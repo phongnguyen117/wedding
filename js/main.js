@@ -130,32 +130,28 @@ $( document ).ready(function() {
                 // html +
               '</div>';
     var c = $(dom).append(html).fadeIn('slow');
-    $("#freewall").html(c, 1000);
+    $("#freewall").html(c, 500);
 
-    setTimeout(function() {
-      var imgLoad = imagesLoaded( $('#freewall') );
-      $('#freewall').append('<h1 class="aa text-center">ddddd</h1>');
-      imgLoad.on( 'progress', function( instance, image ) {
-        image.img.setAttribute('data-width', image.img.offsetWidth);
-        image.img.setAttribute('data-height', image.img.offsetHeight);
-      });
+    if ($("#freewall .google-image-layout .image_albums").length === end-start) {
+      setTimeout(function() {
+        var imgLoad = imagesLoaded( $('#freewall') );
+        imgLoad.on( 'progress', function( instance, image ) {
+          image.img.setAttribute('data-width', image.img.offsetWidth);
+          image.img.setAttribute('data-height', image.img.offsetHeight);
+          $('.bullets-list').removeClass('active-element');
+          $('.bullets-list').addClass('hidden-element');
+        });
 
-      imgLoad.on( 'done', function( instance ) {
-        GoogleImageLayout.init();
-        $('#freewall').find('.aa').remove();
-      });
-    }, 0);
+        imgLoad.on( 'done', function( instance ) {
+          GoogleImageLayout.init();
+          setTimeout(function() {
+            $('.bullets-list').removeClass('hidden-element');
+            $('.bullets-list').addClass('active-element');
+          }, 400);
+        });
+      }, 100);
+    }
   }
-
-  // $(window).scroll( function(){
-  //   $('.hideme').each( function(i){
-  //     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-  //     var bottom_of_window = $(window).scrollTop() + $(window).height();
-  //     if( bottom_of_window > bottom_of_object - 500){
-  //       $(this).animate({'opacity':'1'},500);
-  //     }
-  //   });
-  // });
 
 // var listNumberShowIndex = [[0, 11], [12, 22], [23, 36], [37, 46], [47, 60], [61, 73], [74, 85], [86, 99]];
   var listNumberShowIndex = [[0, 10], [10, 18], [18, 28], [28, 38], [38, 46], [46, 57], [57, 67], [67, 77], [77, 87], [87, 98]];
@@ -178,6 +174,8 @@ $( document ).ready(function() {
       self.addClass('active');
     })
   });
+
+  $('#scroll-bar').perfectScrollbar();
 
 });
 

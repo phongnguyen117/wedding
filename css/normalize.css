@@ -9,3 +9,18 @@
 .google-image-layout img.layout-completed {
   visibility: visible;
 }
+
+.hidden-element {
+  display: none;
+  -webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
+
+.active-element {
+  display: block;
+  transition: display .5s ease;
+  -webkit-transition: display .5s ease;
+  -moz-transition: display .5s ease;
+  -o-transition: display .5s ease;
+}
