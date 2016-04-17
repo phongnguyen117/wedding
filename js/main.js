@@ -132,16 +132,19 @@ $( document ).ready(function() {
     var c = $(dom).append(html).fadeIn('slow');
     $("#freewall").html(c, 1000);
 
-    var imgLoad = imagesLoaded( document.querySelector('#freewall') );
+    setTimeout(function() {
+      var imgLoad = imagesLoaded( $('#freewall') );
+      $('#freewall').append('<h1 class="aa text-center">ddddd</h1>');
+      imgLoad.on( 'progress', function( instance, image ) {
+        image.img.setAttribute('data-width', image.img.offsetWidth);
+        image.img.setAttribute('data-height', image.img.offsetHeight);
+      });
 
-    imgLoad.on( 'progress', function( instance, image ) {
-      image.img.setAttribute('data-width', image.img.offsetWidth);
-      image.img.setAttribute('data-height', image.img.offsetHeight);
-    });
-
-    imgLoad.on( 'done', function( instance ) {
-      GoogleImageLayout.init();
-    });
+      imgLoad.on( 'done', function( instance ) {
+        GoogleImageLayout.init();
+        $('#freewall').find('.aa').remove();
+      });
+    }, 0);
   }
 
   // $(window).scroll( function(){
