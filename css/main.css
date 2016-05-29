@@ -106,7 +106,7 @@ header .title {
 }
 
 header .title h1 {
-    font-size: 80px;
+    font-size: 3em;
     margin-bottom: 25px;
 }
 
@@ -136,9 +136,9 @@ header .smaller .navbar-brand {
     background-image: none!important;
 }
 
-.carousel .item {
+/*.carousel .item {
     height: 100vh;
-}
+}*/
 
 #count-down #clock {
     padding-top: 40px;
@@ -171,7 +171,7 @@ header .smaller .navbar-brand {
 }
 
 #couple .namecard-wrap {
-    padding-top: 107px;
+    padding-top: 13vw;
 }
 
 #couple .namecard-wrap .namecard-item {
@@ -185,37 +185,44 @@ header .smaller .navbar-brand {
     left: 23%;
 }
 #couple .namecard-item .namecard-image img{
-    width: 215px;
-    height: 215px;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
+    transform: translate(-8%, 0%);
 }
 
 #couple .namecard-item .namecard-body {
-    padding-top: 110px;
+    padding-top: 10vw;
 }
 
 #couple .namecard-item .namecard-body .namecard-body-color {
+    font-size: 3vw;
     font-family: "Cantata One", serif;
 }
 
 #couple .namecard-item .namecard-body .namecard-body-notes {
     font-family: "Cantata One", serif;
-    font-size: 13px;
+    font-size: 2vw;
 }
 
 #couple .namecard-item .namecard-paragraph {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
     padding: 40px 0 20px 0;
 }
 
 #couple .namecard-item .namecard-paragraph p {
-    padding: 0 30px;
+    padding: 0 2vw;
     text-align: justify;
 }
 
 #couple .namecard-item .namecard-sign {
     padding-bottom: 50px;
+}
+
+#couple .namecard-item .namecard-sign img{
+    max-width: 90%;
+    height: auto;
 }
 
 .parallax-window {
@@ -458,4 +465,10 @@ footer .last {
 #scroll-bar {
     height: 100%;
     position: relative;
+}
+
+@media (min-width: @screen-lg-min) {
+    .carousel .item {
+        height: 100vh;
+    }
 }
