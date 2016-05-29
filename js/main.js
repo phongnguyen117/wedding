@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
-  // $('.carousel').carousel({
-  //   interval: 2000
-  // });
+  $('.carousel').carousel({
+    interval: 2000
+  });
 
   $('#clock').countdown('2016/04/30', function(event) {
     $("#days").text(event.offset.totalDays);
